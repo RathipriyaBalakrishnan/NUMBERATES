@@ -1,0 +1,95 @@
+*{
+    padding:0ex;
+    margin: 0ex;
+    /* position:absolute; */
+}
+.a{
+    background-size: cover;
+    /* background-image: url(image.png); */
+}
+.backimage1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+}
+#attemptsLabel{
+    font-size: 1.5em;
+}
+#attemptCount{
+    font-size: 6em;
+    border-width: 40px;
+    border-radius : 100%;
+    background-color: rgb(80, 59, 202);
+}
+#corner{
+    padding-left: 150ex;
+}
+#title{
+    padding-left:18ex;
+    font-size:2.7em;
+    align-items: center;
+}
+#title hr{
+    width: 60%;
+}
+#input-container{
+    height: 30vh;
+    border:2px solid black;
+    margin : 0 28ex;
+    border-radius: 6px;
+}
+#a1{
+   padding: 20 20px;
+}
+#heading{
+    padding-left: 250px;
+    padding-bottom: 30px;
+    font-size: 1.8em;
+}
+#textLabel{
+    padding-left: 220px;
+    font-size:1.5em ;
+}
+#checkButton{
+    /* padding-left:50px; */
+    width: 10vw;
+    height: 5vh;
+}
+.checkbox{
+    padding-left: 300px;
+    padding-top: 40px;
+}
+#textBox{
+    width:20vw;
+    height: 5vh;
+    font-size: 1.5em;
+    padding-left: 15ex;
+}
+#message{
+    padding-left:60px;
+    font-size:1.4em;
+}
+.b1,.c1{
+    /* color: black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position:absolute; 
+    width: 50vw;
+    height: 30vh;
+    padding-top: 30px;
+    border:2px solid black;
+    margin-top:30ex;
+    margin-left:50ex;
+    /* margin-right:20ex; */
+    align-items: center;
+    border-radius: 6px;
+}
